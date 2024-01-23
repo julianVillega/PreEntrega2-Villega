@@ -19,24 +19,24 @@ header{
     z-index: 2;
 }
 
-#a-todos-lados-logo{
+.header__logo{
     width: 100px;
     height: auto;
     vertical-align: middle;
 }
 
-.header nav{
+.header__nav{
     display: inline;
     position: relative;
     left: 15%;
     bottom: 50%;
 }
 
-.header ul{
+.header__list{
     display: inline;
 }
 
-.header li{
+.header__listitem{
     display: inline;
     margin-left: 100px;
     padding: 5px 15px 5px 15px;
@@ -44,7 +44,7 @@ header{
     background-color: #000000;
 }
 
-.header li a {
+.header__listitemanchor{
     color:#EFA00B;
     text-decoration: none;
     font-size: 1.2rem;
