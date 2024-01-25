@@ -32,6 +32,15 @@ header{
     text-align: center;
 }
 
+.navbar__page-link:focus{
+    color: #EFA00B;
+}
+
+.navbar__page-link:hover{
+    background-color: #272727;
+    color: #EFA00B;
+}
+
 main{
     text-align: center;
 }
