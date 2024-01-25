@@ -22,32 +22,14 @@ header{
 .header__logo{
     width: 100px;
     height: auto;
-    vertical-align: middle;
 }
 
-.header__nav{
-    display: inline;
-    position: relative;
-    left: 15%;
-    bottom: 50%;
-}
-
-.header__list{
-    display: inline;
-}
-
-.header__listitem{
-    display: inline;
-    margin-left: 100px;
-    padding: 5px 15px 5px 15px;
+.navbar__page-link{
     border-radius: 15px;
     background-color: #000000;
-}
-
-.header__listitemanchor{
     color:#EFA00B;
-    text-decoration: none;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 main{
