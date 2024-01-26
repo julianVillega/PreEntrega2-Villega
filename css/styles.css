@@ -45,56 +45,43 @@ main{
     text-align: center;
 }
 
-main p{
-    margin-top: 10px;
-    font-size: 1.2rem;
-}
 
-.main__title-div{
+/* INDEX STYLES */
+.index-title-div{
     border-bottom: 1px #07004D solid;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
-.main__parrafo-intro{
-    font-size: 2rem;
-}
-
-.main__title{
+.index-title-div__title{
     font-family: 'Montserrat';
     font-size: 4rem;
     text-decoration: underline;
 }
 
-/* INDEX STYLES */
-.main__title-div{
-    margin-bottom: 0px;
-}
-
-.main__section{
-    padding-top: 50px;
-    height: 600px;
+.index-main-section{
     background-image: url(../images/background-inicio-16-9.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    line-height: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    font-weight: 700;
+    gap: 10px;
 }
 
+.index-main-section--caja{
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
 
-/* main.index section div.intro{
-    font-size: 2rem;
-    color: white;
-} */
+.index-main-section--caja__titulo{
+    text-align: center;
+}
 
-/* main.index section ul {
-    width: 40vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); 
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    color: black;
-} */
 /* DSTINOS STYLES */
 
 
