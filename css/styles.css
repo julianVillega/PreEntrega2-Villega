@@ -47,6 +47,8 @@ main{
 
 
 /* INDEX STYLES */
+/* MOBILE */
+
 .index-title-div{
     border-bottom: 1px #07004D solid;
     text-align: center;
@@ -72,13 +74,13 @@ main{
     gap: 10px;
 }
 
-.index-main-section--caja{
+.index-main-section-caja{
     background-color: rgba(245, 245, 245, 0.5);
     border-radius: 10px;
     padding: 10px;
 }
 
-.index-main-section--caja__titulo{
+.index-main-section-caja__titulo{
     text-align: center;
 }
 
