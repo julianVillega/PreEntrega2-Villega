@@ -75,7 +75,7 @@ main{
 }
 
 .index-main-section-caja{
-    background-color: rgba(245, 245, 245, 0.5);
+    background-color: rgba(245, 245, 245, 0.75);
     border-radius: 10px;
     padding: 10px;
 }
@@ -83,6 +83,36 @@ main{
 .index-main-section-caja__titulo{
     text-align: center;
 }
+
+/* estilos tablet */
+
+@media screen and (min-width:768px) {
+    .index-main-section-caja{
+        width: 70vw;
+        font-size: 1.2rem;
+    }
+    .index-main-section-caja__titulo{
+        font-size: 2.5rem;
+    }
+}
+
+/* estilos desktop */
+
+@media screen and (min-width:1024px) {
+    .index-main-section{
+        flex-direction: row;    
+    }
+    
+    .index-main-section-caja{
+        /* width: 50vw; */
+        min-height: 450px;
+        font-size: 1.3rem;
+    }
+    .index-main-section-caja__titulo{
+        font-size: 2.5rem;
+    }
+}
+
 
 /* DSTINOS STYLES */
 
