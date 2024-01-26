@@ -50,27 +50,27 @@ main p{
     font-size: 1.2rem;
 }
 
-.title-div{
+.main__title-div{
     border-bottom: 1px #07004D solid;
     margin-bottom: 10px;
 }
 
-.title-div > p{
+.main__parrafo-intro{
     font-size: 2rem;
 }
 
-.title-div > h1{
+.main__title{
     font-family: 'Montserrat';
     font-size: 4rem;
     text-decoration: underline;
 }
 
 /* INDEX STYLES */
-main.index .title-div{
+.main__title-div{
     margin-bottom: 0px;
 }
 
-main.index section{
+.main__section{
     padding-top: 50px;
     height: 600px;
     background-image: url(../images/background-inicio-16-9.png);
@@ -80,20 +80,13 @@ main.index section{
     line-height: 2.2rem;
 }
 
-main.index .blurr{
-    width: 70vw;
-    position: relative;
-    left: 15vw;
-    backdrop-filter: sepia(90%);
-    border-radius: 20px;
-}
 
-main.index section div.intro{
+/* main.index section div.intro{
     font-size: 2rem;
     color: white;
-}
+} */
 
-main.index section ul {
+/* main.index section ul {
     width: 40vw;
     position: relative;
     left: 50%;
@@ -101,7 +94,7 @@ main.index section ul {
     margin-bottom: 20px;
     font-size: 1.5rem;
     color: black;
-}
+} */
 /* DSTINOS STYLES */
 
 
