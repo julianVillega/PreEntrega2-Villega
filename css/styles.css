@@ -116,7 +116,7 @@ main{
 /* DSTINOS STYLES */
 
 
-main.destinos article.detail-div{
+.destinos-article-detail{
     position: relative;
     width: 50vw;
     height: 340px;
@@ -125,7 +125,7 @@ main.destinos article.detail-div{
     background-color: #F4F3EE;
 }
 
-main.destinos img.city-image{
+.destinos-article-detail__city-image{
     width: 300px;
     height: auto;
     position: absolute;
@@ -134,7 +134,7 @@ main.destinos img.city-image{
     border-radius: 20px;    
 }
 
-main.destinos h2.city-name{
+.destinos-article-detail__city-name{
     position: absolute;
     left: 40px;
     top: 40px;
@@ -142,7 +142,7 @@ main.destinos h2.city-name{
     color:white;
 }
 
-main.destinos div.city-description-long{
+.destinos-city-description-long{
     position: absolute;
     left: 340px;
     top:20px;
@@ -150,7 +150,7 @@ main.destinos div.city-description-long{
     text-align:left;
 }
 
-main.destinos div.city-description-long ul{
+.destinos-city-description-long__puntos-turisticos{
     position: absolute;
     left:25%;
     margin-top: 10px;
@@ -188,12 +188,12 @@ main.destinos div.destination{
     margin: 0px 10px 0px 10px;
 }
 
-main.destinos h2{
+/* main.destinos h2{
     position: absolute;
     left:25px;
     top:25px;
     color:rgba(0, 0, 0, 0.629)
-}
+} */
 
 main.destinos div.destination img{
     width: 200px;
