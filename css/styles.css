@@ -72,6 +72,7 @@ main{
     text-align: left;
     font-weight: 700;
     gap: 10px;
+    height: 100vh;
 }
 
 .index-main-section-caja{
@@ -100,12 +101,11 @@ main{
 
 @media screen and (min-width:1024px) {
     .index-main-section{
-        flex-direction: row;    
+        flex-direction: row;            
     }
     
     .index-main-section-caja{
-        /* width: 50vw; */
-        min-height: 450px;
+        min-height: 475px;
         font-size: 1.3rem;
     }
     .index-main-section-caja__titulo{
