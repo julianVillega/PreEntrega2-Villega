@@ -114,21 +114,28 @@ main{
 
 
 /* DSTINOS STYLES */
-.dest-promos-nacionales-body__precio{
-    font-size:1.2rem;
+/* estilos de promos nacionales */
+
+.dest-promos-nacionales__title{
+    background-image: url(../images/ciudad-noche.jpg);
+    background-size:cover;
+}
+
+.dest-promo-card__precio{
+    font-size:0.75rem;
     font-weight: 900;
     color:rgb(40, 130, 40);
 }
 
-.dest-promos-nacionales-body__precio--viejo{
+.dest-promo-card__precio--viejo{
     text-decoration: line-through;
-    font-size: 0.75rem;
     color:red
 }
 
-.dest-promos-nacionales-body__btn{
+.dest-promo-card__btn{
     background-color: whitesmoke;
 }
+
 
 /* STYLES ALIANZAS */
 
