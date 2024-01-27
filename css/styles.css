@@ -114,92 +114,20 @@ main{
 
 
 /* DSTINOS STYLES */
-
-
-.destinos-article-detail{
-    position: relative;
-    width: 50vw;
-    height: 340px;
-    margin-left: 25vw;
-    border-radius: 20px;
-    background-color: #F4F3EE;
+.dest-promos-nacionales-body__precio{
+    font-size:1.2rem;
+    font-weight: 900;
+    color:rgb(40, 130, 40);
 }
 
-.destinos-article-detail__city-image{
-    width: 300px;
-    height: auto;
-    position: absolute;
-    left:20px;
-    bottom:20px;
-    border-radius: 20px;    
+.dest-promos-nacionales-body__precio--viejo{
+    text-decoration: line-through;
+    font-size: 0.75rem;
+    color:red
 }
 
-.destinos-article-detail__city-name{
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    z-index: 1;
-    color:white;
-}
-
-.destinos-city-description-long{
-    position: absolute;
-    left: 340px;
-    top:20px;
-    margin:0px 20px 0px 20px;
-    text-align:left;
-}
-
-.destinos-city-description-long__puntos-turisticos{
-    position: absolute;
-    left:25%;
-    margin-top: 10px;
-}
-
-main.destinos div.carousel{
-    display: inline-block;
-    position: relative;
-    width: 888px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-main.destinos div.carousel i{
-    position: absolute;
-    top: 50%;
-}
-
-main.destinos div.carousel i.fa-chevron-left{
-    left:0px;
-}
-
-main.destinos div.carousel i.fa-chevron-right{
-    right:0px;
-}
-
-main.destinos div.destination{
-    background-color: #BCB8B1;
-    width: 240px;
-    height: 240px;
-    position: relative;
-    display: inline-block;
-    border: 2px solid #07004D;
-    border-radius: 20px;
-    margin: 0px 10px 0px 10px;
-}
-
-/* main.destinos h2{
-    position: absolute;
-    left:25px;
-    top:25px;
-    color:rgba(0, 0, 0, 0.629)
-} */
-
-main.destinos div.destination img{
-    width: 200px;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 20px;
+.dest-promos-nacionales-body__btn{
+    background-color: whitesmoke;
 }
 
 /* STYLES ALIANZAS */
