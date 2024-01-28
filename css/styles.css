@@ -124,15 +124,15 @@ main{
     display: none;
 }
 
-    @media screen and (min-width:992px){
-        .dest-promos-nacionales__title{
-            display: none;
-        }
-        .dest-promos-nacionales__title--desktop{
-            display: block;
-
-        }
+@media screen and (min-width:992px){
+    .dest-promos-nacionales__title{
+        display: none;
     }
+    .dest-promos-nacionales__title--desktop{
+        display: block;
+
+    }
+}
 
 .dest-promo-card__precio{
     font-size:0.75rem;
@@ -149,6 +149,43 @@ main{
     background-color: whitesmoke;
 }
 
+/* estilos destinos internacionales */
+
+.dest-inter__div-titulo{
+    background-color: yellowgreen;
+    height: 40vh;
+    position: relative;
+}
+
+.dest-inter__img-titulo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 50%;
+    z-index: 0;
+}
+
+.dest-inter__titulo{
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+
+.dest-inter__carousel{
+    border: 1px rgb(201, 201, 201) solid;
+    border-radius: 15px;
+}
+
+.dest-inter__img-div{
+    height: 40vh;
+}
+
+.dest-inter__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
 
 /* STYLES ALIANZAS */
 
