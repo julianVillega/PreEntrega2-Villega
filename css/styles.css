@@ -120,6 +120,19 @@ main{
     background-image: url(../images/ciudad-noche.jpg);
     background-size:cover;
 }
+.dest-promos-nacionales__title--desktop{
+    display: none;
+}
+
+    @media screen and (min-width:992px){
+        .dest-promos-nacionales__title{
+            display: none;
+        }
+        .dest-promos-nacionales__title--desktop{
+            display: block;
+
+        }
+    }
 
 .dest-promo-card__precio{
     font-size:0.75rem;
