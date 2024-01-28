@@ -152,9 +152,10 @@ main{
 /* estilos destinos internacionales */
 
 .dest-inter__div-titulo{
-    height: 40vh;
+    height: 25vh;
     position: relative;
 }
+
 
 .dest-inter__img-titulo{
     height: 100%;
@@ -176,7 +177,7 @@ main{
 }
 
 .dest-inter__img-div{
-    height: 40vh;
+    height: 30vh;
 }
 
 .dest-inter__img{
@@ -186,6 +187,19 @@ main{
     object-position: 50% 50%;
 }
 
+@media screen and (min-width:992px){
+    .dest-inter__div-titulo{
+        height: 50vh;
+        border-radius:10px;
+    }
+
+    .dest-inter__img-titulo{
+        border-radius: 10px;
+    }
+    .dest-inter__img-div{
+        height: 50vh;
+    }
+}
 /* STYLES ALIANZAS */
 
 main.alianzas h2.title{
