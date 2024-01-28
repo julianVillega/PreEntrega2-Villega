@@ -202,46 +202,72 @@ main{
 }
 /* STYLES ALIANZAS */
 
-main.alianzas h2.title{
-    font-size: 2rem;
-    margin:40px 0px 40px 0px;
+.alz-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap:10px;
 }
 
-
-main.alianzas article{
-    background-color: #F4F3EE;
-    position: relative;
-    left:25vw;
-    width: 50vw;
-    height: 240px;
-    margin:20px 0px 20px 0px;
-    border-radius: 20px;
+.alz-section__parrafo{
     text-align: left;
+    margin:10px;
 }
 
-main.alianzas article ul{
-    position: absolute;
-    left:260px;
-    top:20px;
-    display: inline-block;
-    line-height: 3rem;
+.alz-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    gap:5px;
+    width: 90vw;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: #F4F3EE;
 }
 
-main.alianzas article h2{
+.alz-card__img-div{
+    border-radius: 20px;
+    width: 100%;
+    height: 30vh;
+}
+
+.alz-card__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.alz-card__nombre{
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 10%;
+    left: 9%;
     color: white;
     z-index: 1;
 }
 
-main.alianzas article img{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 200px;
-    height: auto;
-    border-radius: 20px;
+
+@media screen and (min-width:1024px){
+    .alz-card__nombre{
+        left:3%;
+    }
+
+    .alz-card{
+        width: 55vw;
+        justify-content: space-between;
+    }
+
+    .alz-card__img-div{
+        width: 30%;
+    }
+
+    .alz-card__div-lista{
+        width: 50%;
+        align-self:center;
+    }
 }
 
 /* STYLES GALERIA */
