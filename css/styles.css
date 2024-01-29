@@ -261,6 +261,7 @@ main{
     }
 
     .alz-card__img-div{
+        height: 30%;
         width: 30%;
     }
 
