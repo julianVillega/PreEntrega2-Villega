@@ -146,7 +146,7 @@ main{
     }
     .dest-promos-nacionales__title--desktop{
         display: block;
-
+        border-radius: 10px;
     }
 }
 
