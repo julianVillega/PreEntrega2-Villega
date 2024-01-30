@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.texto_destacado{
+    color: #ff6c32;
+}
+
 body{
     font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
 }
