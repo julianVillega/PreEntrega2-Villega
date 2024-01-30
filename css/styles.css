@@ -5,7 +5,14 @@
 }
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1{
+    font-family: "Archivo black";
+    font-size: 3rem;
+    color:#4d4d4d;
 }
 
 h2{
@@ -43,6 +50,15 @@ header{
 
 main{
     text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
 }
 
 
