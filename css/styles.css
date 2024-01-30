@@ -201,6 +201,8 @@ main{
     width: 100%;
     object-fit: cover;
     object-position: 50% 50%;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 @media screen and (min-width:992px){
@@ -212,9 +214,16 @@ main{
     .dest-inter__img-titulo{
         border-radius: 10px;
     }
+    
     .dest-inter__img-div{
         height: 50vh;
     }
+
+    .dest-inter__img{
+        border-radius: 25px;
+        padding: 10px;
+    }
+
 }
 /* STYLES ALIANZAS */
 
