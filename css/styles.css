@@ -340,20 +340,34 @@ main{
 }
 
 /* STYLES NOSOTROS */
+.wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.text-card{
-    width: 50vw;
-    position: relative;
-    left: 25vw;
-    margin: 0px 0px 20px 0px;
+.nst-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+    row-gap: 10px;
+}
+
+.nst-section__text-card{
+    background-color: #F4F3EE;
     padding: 20px;
     border-radius: 20px;
     text-align: justify;
-    background-color: #F4F3EE;
 }
 
-.text-card > h2{
-    text-align: left;
+@media screen and (min-width:1024px){
+    .nst-section{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 3;
+        gap: 20px;
+        width: 75vw;
+    }
+
 }
 
 /* STYLES FOOTER */
