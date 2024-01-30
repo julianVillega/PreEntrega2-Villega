@@ -229,6 +229,7 @@ main{
 .alz-section__parrafo{
     text-align: left;
     margin:10px;
+    font-weight: 500;
 }
 
 .alz-card{
@@ -269,6 +270,7 @@ main{
 @media screen and (min-width:1024px){
     .alz-card__nombre{
         left:3%;
+        font-size: 2rem;
     }
 
     .alz-card{
