@@ -74,60 +74,83 @@ main{
     text-align: center;
 }
 
-.index-title-div__title{
-    font-family: 'Montserrat';
-    font-size: 4rem;
-    text-decoration: underline;
-}
-
 .index-main-section{
-    background-image: url(../images/background-inicio-16-9.png);
+    background-color:black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     align-items: center;
     text-align: left;
     font-weight: 700;
     gap: 10px;
 }
 
-.index-main-section-caja{
-    background-color: rgba(245, 245, 245, 0.75);
-    border-radius: 10px;
+
+.index-main-section, .index-main{
+    width: 100vw;
+}
+
+.index-article{
+    width: 100vw;
+    text-align: justify;
+    background-size: 100%;
+}
+
+.index-main .index-article:nth-child(1){
+    background-position: 0% 50%;
+    background-image: url(../images/playa.jpg);
+}
+
+
+.index-main .index-article:nth-child(2){
+    background-image: url(../images/ciudad-noche.jpg);
+    background-size: cover;
+}
+
+.index-main .index-article:nth-child(3){
+    background-image: url(../images/new-york.jpg);
+}
+
+.index-article__titulo{
+    text-align:center;
+}
+
+.index-article__content{
     padding: 10px;
-}
-
-.index-main-section-caja__titulo{
-    text-align: center;
-}
-
-/* estilos tablet */
-
-@media screen and (min-width:768px) {
-    .index-main-section-caja{
-        width: 70vw;
-        font-size: 1.2rem;
-    }
-    .index-main-section-caja__titulo{
-        font-size: 2.5rem;
-    }
+    text-shadow:#ffffff 2px 2px 5px;
 }
 
 /* estilos desktop */
 
 @media screen and (min-width:1024px) {
-    .index-main-section{
-        flex-direction: row;            
+
+    .index-article{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        font-size: 1.2rem;
     }
-    
-    .index-main-section-caja{
+    .index-article__titulo{
+        font-size: 2.5rem;
+    }
+    .index-article__content{
+        max-width: 40%;
+    }
+    .index-main-section .index-article:nth-child(2){
+        align-items: end;
+    }
+
+    .index-main .index-article:nth-child(3){
+        background-position: 0% 20%;
+    }
+
+    .index-article{
         min-height: 475px;
         font-size: 1.3rem;
     }
-    .index-main-section-caja__titulo{
+    .index-article__titulo{
         font-size: 2.5rem;
     }
 }
