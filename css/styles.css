@@ -70,30 +70,45 @@ main{
     text-align: center;
 }
 
-.index-title-div__title{
+/* .index-title-div__title{
     font-family: 'Montserrat';
     font-size: 4rem;
     text-decoration: underline;
-}
+} */
 
 .index-main-section{
-    background-image: url(../images/background-inicio-16-9.png);
+    background-color:black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     align-items: center;
     text-align: left;
     font-weight: 700;
     gap: 10px;
 }
 
+
+.index-main-section, .index-main{
+    width: 100vw;
+}
+
 .index-main-section-caja{
-    background-color: rgba(245, 245, 245, 0.75);
-    border-radius: 10px;
-    padding: 10px;
+    width: 100vw;
+}
+
+.index-caja1{
+    background-image: url(../images/playa.jpg);
+}
+
+.index-caja2{
+    background-image: url(../images/ciudad-noche.jpg);
+}
+
+.index-caja3{
+    background-image: url(../images/new-york.jpg);
 }
 
 .index-main-section-caja__titulo{
@@ -104,7 +119,7 @@ main{
 
 @media screen and (min-width:768px) {
     .index-main-section-caja{
-        width: 70vw;
+        /* width: 70vw; */
         font-size: 1.2rem;
     }
     .index-main-section-caja__titulo{
@@ -115,10 +130,7 @@ main{
 /* estilos desktop */
 
 @media screen and (min-width:1024px) {
-    .index-main-section{
-        flex-direction: row;            
-    }
-    
+
     .index-main-section-caja{
         min-height: 475px;
         font-size: 1.3rem;
