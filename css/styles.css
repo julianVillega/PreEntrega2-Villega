@@ -87,13 +87,8 @@ main{
     gap: 10px;
 }
 
-
-.index-main-section, .index-main{
-    width: 100vw;
-}
-
 .index-article{
-    width: 100vw;
+    width: 100%;
     text-align: justify;
     background-size: 100%;
 }
