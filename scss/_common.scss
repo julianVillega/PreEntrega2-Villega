@@ -3,9 +3,16 @@
     flex-direction: column;
 }
 
+@mixin flex-col($align, $justify){
+    @extend %flex-col;
+    align-items: $align;
+    justify-content: $justify;
+}
+
 // colores
 
 $bg-black-selected : #4e4e4e;
+$text-grey:#4d4d4d;
 $text-yellow:#EFA00B;
 $bg-blue:#0238c1;
 $bg-black:#000000;
@@ -13,3 +20,6 @@ $bg-black:#000000;
 // bordes
 
 $default-border-radius: 15px;
+
+// gaps
+$default-gap:10px;

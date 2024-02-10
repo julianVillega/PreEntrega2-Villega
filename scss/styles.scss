@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+// estilos globales
+
+h1{
+    font-family: "Archivo black";
+    font-size: 3rem;
+    color:$text-grey;
+}
+
 //estilos header
 
 header{
@@ -35,6 +43,103 @@ header{
     }
 
 }
+
+// Estilos index
+.index-title-div{
+    border-bottom: 1px #07004D solid;
+    text-align: center;
+}
+
+.index-main{
+    .section{
+        @include flex-col(center,auto);
+        background-color:$bg-black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: left;
+        font-weight: 700;
+        gap: $default-gap;
+    }
+    
+    .article{
+        width: 100%;
+        background-size: 100%;
+        text-align: justify;
+    }
+    
+    .article:nth-child(1){
+        background-position: 0% 50%;
+        background-image: url(../images/playa.jpg);
+    }
+    
+    .article:nth-child(2){
+        background-image: url(../images/ciudad-noche.jpg);
+        background-size: cover;
+    }
+    
+    .article:nth-child(3){
+        background-image: url(../images/new-york.jpg);
+    }
+    
+    .article__titulo{
+        text-align:center;
+    }
+    
+    .article__content{
+        padding: 10px;
+        text-shadow:#ffffff 2px 2px 5px;
+    }
+    
+    // estilos tablet
+    @media screen and (min-width:768px) {
+        .article{
+            min-height: 300px;
+            font-size: 1.3rem;
+        }
+        .article__titulo{
+            font-size: 2.5rem;
+        }
+        .article:nth-child(1){
+            background-position: 0% 30%;
+        }
+        .article:nth-child(3){
+            background-position: 0% 20%;
+        }
+    }
+
+    /* estilos desktop */
+    
+    @media screen and (min-width:1024px) {
+        .article{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            font-size: 1.2rem;
+        }
+        .article__titulo{
+            font-size: 2.5rem;
+        }
+        .article__content{
+            max-width: 40%;
+        }
+        .article:nth-child(2){
+            align-items: end;
+        }
+    
+        .article:nth-child(3){
+            background-position: 0% 20%;
+        }
+    
+        .article{
+            min-height: 475px;
+        }
+    }
+}
+
+
+
+
 
 
 // estilos footer
