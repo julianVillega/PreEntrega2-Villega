@@ -40,13 +40,12 @@ header .navbar__page-link:focus {
   color: #EFA00B;
 }
 
-.index-title-div {
-  border-bottom: 1px #07004D solid;
-  text-align: center;
-}
-
 .index-main {
   /* estilos desktop */
+}
+.index-main .title-div {
+  border-bottom: 1px #07004D solid;
+  text-align: center;
 }
 .index-main .section {
   align-items: center;

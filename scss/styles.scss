@@ -45,12 +45,12 @@ header{
 }
 
 // Estilos index
-.index-title-div{
-    border-bottom: 1px #07004D solid;
-    text-align: center;
-}
 
 .index-main{
+    .title-div{
+        border-bottom: 1px #07004D solid;
+        text-align: center;
+    }
     .section{
         @include flex-col(center,auto);
         background-color:$bg-black;
