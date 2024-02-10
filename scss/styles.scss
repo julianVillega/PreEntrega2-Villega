@@ -1,0 +1,39 @@
+@import "common";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: $bg-blue;
+    z-index: 2;
+
+    .logo{
+        width: 100px;
+        height: auto;
+    }
+
+    .navbar__page-link{
+        border-radius: $default-border-radius;
+        background-color: $bg-black;
+        color:$text-yellow;
+        font-size: 1.2rem;
+        text-align: center;
+        &:hover{
+            background-color: $bg-black-selected;
+            color: $text-yellow;
+        }
+        &:focus{
+            color: $text-yellow;
+        }
+    }
+    
+    
+}
+
+
+
