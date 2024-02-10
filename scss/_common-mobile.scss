@@ -1,0 +1,6 @@
+@import "common";
+
+%flex-col{
+    @extend %flex-col;
+    width: 100%;
+}
