@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+//estilos header
+
 header{
     position: sticky;
     top: 0px;
@@ -31,8 +33,44 @@ header{
             color: $text-yellow;
         }
     }
+
+}
+
+
+// estilos footer
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "direccion privacidad"
+    "telefono social"
+    "email social";
+    justify-items: start;
+    align-items: center;
+    gap: 20px;
+    margin:10px;
     
+    .direccion{
+        grid-area: direccion;
+    }
+    .telefono{
+        grid-area: telefono;
+    }
+    .email{
+        grid-area:email;
+    }
     
+    .privacidad{
+        grid-area: "privacidad";
+        justify-self: end;
+        text-align: end;
+    }
+    
+    .social{
+        grid-area:"social";
+        justify-self: end;
+        align-self: end;
+    }
 }
 
 
