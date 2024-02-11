@@ -133,6 +133,12 @@ header .navbar__page-link:focus {
   background-image: url(../images/ciudad-noche.jpg);
   background-size: cover;
 }
+@media screen and (min-width: 768px) {
+  .dest-main .promos-nacionales .title {
+    background-position: 0% 30%;
+    min-height: 50vh;
+  }
+}
 .dest-main .promos-nacionales .title--desktop {
   display: none;
 }
@@ -182,12 +188,17 @@ header .navbar__page-link:focus {
   border-radius: 15px;
   padding: 5px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .dest-main .internacional .div-titulo {
-    height: 50vh;
+    height: 30vh;
   }
   .dest-main .internacional .img-titulo {
     border-radius: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .dest-main .internacional .div-titulo {
+    height: 50vh;
   }
   .dest-main .internacional .carousel-destinos .img-div {
     height: 50vh;
