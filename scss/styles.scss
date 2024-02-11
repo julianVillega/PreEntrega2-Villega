@@ -156,14 +156,14 @@ header{
             }
             .title--desktop{
                 display: block;
-                border-radius: 10px;
+                border-radius: $default-border-radius;
             }
         }       
     }
     // estilos promos nacionales
     .promo-card{
         .precio{
-            font-size:0.75rem;
+            font-size:$font-small;
             font-weight: 900;
             color:rgb(40, 130, 40);
         }
@@ -182,15 +182,13 @@ header{
     /* estilos destinos internacionales */
     
     .internacional{
-        .div-titulo{
+        .div-titulo {
             height: 25vh;
             position: relative;
         }
-                
+        
         .img-titulo{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %img-cover;
             object-position: 0% 50%;
             z-index: 0;
         }
@@ -203,37 +201,34 @@ header{
         
         .carousel-destinos{
             border: 1px rgb(201, 201, 201) solid;
-            border-radius: 15px;
-    
+            border-radius: $default-border-radius;
+            
             .img-div{
                 height: 30vh;
             }
             
             .img{
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
+                @extend %img-cover;
                 object-position: 50% 50%;
-                border-radius: 15px;
+                border-radius: $default-border-radius;
                 padding: 5px;
             }
         }
         @media screen and (min-width:992px){
             .div-titulo{
                 height: 50vh;
-                border-radius:10px;
             }
-        
+            
             .img-titulo{
-                border-radius: 10px;
+                border-radius: $default-border-radius;
             }
             .carousel-destinos{
                 .img-div{
                     height: 50vh;
                 }
-            
+                
                 .img{
-                    border-radius: 25px;
+                    border-radius: $big-border-radius;
                     padding: 10px;
                 }
             }

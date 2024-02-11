@@ -3,6 +3,12 @@
   flex-direction: column;
 }
 
+.dest-main .internacional .carousel-destinos .img, .dest-main .internacional .img-titulo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -136,7 +142,7 @@ header .navbar__page-link:focus {
   }
   .dest-main .promos-nacionales .title--desktop {
     display: block;
-    border-radius: 10px;
+    border-radius: 15px;
   }
 }
 .dest-main .promo-card .precio {
@@ -156,9 +162,6 @@ header .navbar__page-link:focus {
   position: relative;
 }
 .dest-main .internacional .img-titulo {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
   object-position: 0% 50%;
   z-index: 0;
 }
@@ -175,9 +178,6 @@ header .navbar__page-link:focus {
   height: 30vh;
 }
 .dest-main .internacional .carousel-destinos .img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
   object-position: 50% 50%;
   border-radius: 15px;
   padding: 5px;
@@ -185,10 +185,9 @@ header .navbar__page-link:focus {
 @media screen and (min-width: 992px) {
   .dest-main .internacional .div-titulo {
     height: 50vh;
-    border-radius: 10px;
   }
   .dest-main .internacional .img-titulo {
-    border-radius: 10px;
+    border-radius: 15px;
   }
   .dest-main .internacional .carousel-destinos .img-div {
     height: 50vh;

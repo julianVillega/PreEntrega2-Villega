@@ -3,6 +3,12 @@
     flex-direction: column;
 }
 
+%img-cover{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 @mixin flex-col($align, $justify){
     @extend %flex-col;
     align-items: $align;
@@ -20,6 +26,12 @@ $bg-black:#000000;
 // bordes
 
 $default-border-radius: 15px;
+$big-border-radius: 25px;
 
 // gaps
 $default-gap:10px;
+
+// font-sizes
+$font-small:0.75rem;
+$font-normal:1rem;
+$font-big:1.25rem;
