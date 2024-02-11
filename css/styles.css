@@ -126,30 +126,12 @@ header .navbar__page-link:focus {
   }
 }
 
-.dest-main {
-  /* estilos destinos internacionales */
-}
 .dest-main .promos-nacionales .title {
   background-image: url(../images/ciudad-noche.jpg);
   background-size: cover;
 }
-@media screen and (min-width: 768px) {
-  .dest-main .promos-nacionales .title {
-    background-position: 0% 30%;
-    min-height: 50vh;
-  }
-}
 .dest-main .promos-nacionales .title--desktop {
   display: none;
-}
-@media screen and (min-width: 992px) {
-  .dest-main .promos-nacionales .title {
-    display: none;
-  }
-  .dest-main .promos-nacionales .title--desktop {
-    display: block;
-    border-radius: 15px;
-  }
 }
 .dest-main .promo-card .precio {
   font-size: 0.75rem;
@@ -189,6 +171,10 @@ header .navbar__page-link:focus {
   padding: 5px;
 }
 @media screen and (min-width: 768px) {
+  .dest-main .promos-nacionales .title {
+    background-position: 0% 30%;
+    min-height: 50vh;
+  }
   .dest-main .internacional .div-titulo {
     height: 30vh;
   }
@@ -197,6 +183,13 @@ header .navbar__page-link:focus {
   }
 }
 @media screen and (min-width: 992px) {
+  .dest-main .promos-nacionales .title {
+    display: none;
+  }
+  .dest-main .promos-nacionales .title--desktop {
+    display: block;
+    border-radius: 15px;
+  }
   .dest-main .internacional .div-titulo {
     height: 50vh;
   }

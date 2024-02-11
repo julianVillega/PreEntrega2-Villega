@@ -139,32 +139,17 @@ header{
 
 // estilos destinos
 .dest-main{
+    // promos nacionales
     .promos-nacionales{
         .title{
             background-image: url(../images/ciudad-noche.jpg);
             background-size:cover;
-            @media screen and (min-width:768px){
-                background-position: 0% 30%;
-                min-height: 50vh;
-            }
         }
         .title--desktop{
             display: none;
         }
     }
     
-    @media screen and (min-width:992px){
-        .promos-nacionales{
-            .title{
-                display: none;
-            }
-            .title--desktop{
-                display: block;
-                border-radius: $default-border-radius;
-            }
-        }       
-    }
-    // estilos promos nacionales
     .promo-card{
         .precio{
             font-size:$font-small;
@@ -183,8 +168,7 @@ header{
     }
     
     
-    /* estilos destinos internacionales */
-    
+    // destinos internacionales
     .internacional{
         .div-titulo {
             height: 25vh;
@@ -217,9 +201,18 @@ header{
                 border-radius: $default-border-radius;
                 padding: 5px;
             }
-        }
+        }   
+    }
 
-        @media screen and (min-width:768px) {
+    // estilos tablet
+    @media screen and (min-width:768px){
+        .promos-nacionales{
+            .title{
+                background-position: 0% 30%;
+                min-height: 50vh;
+            }
+        }
+        .internacional{
             .div-titulo{
                 height: 30vh;
             }
@@ -227,15 +220,25 @@ header{
                 border-radius: $default-border-radius;
             }
         }
+    }
 
-        @media screen and (min-width:992px){
+    // estilos desktop
+    @media screen and (min-width:992px){
+        .promos-nacionales{
+            .title{
+                display: none;
+            }
+            .title--desktop{
+                display: block;
+                border-radius: $default-border-radius;
+            }
+        }
+        
+        .internacional{
             .div-titulo{
                 height: 50vh;
             }
             
-            // .img-titulo{
-            //     border-radius: $default-border-radius;
-            // }
             .carousel-destinos{
                 .img-div{
                     height: 50vh;
@@ -246,14 +249,10 @@ header{
                     padding: 10px;
                 }
             }
-
         }
-            
     }
         
 }
-
-
 
 // estilos footer
 .footer{
