@@ -167,6 +167,21 @@ header .navbar__page-link:focus {
   top: 0px;
   z-index: 0;
 }
+.dest-main .internacional .carousel-destinos {
+  border: 1px rgb(201, 201, 201) solid;
+  border-radius: 15px;
+}
+.dest-main .internacional .carousel-destinos .img-div {
+  height: 30vh;
+}
+.dest-main .internacional .carousel-destinos .img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 15px;
+  padding: 5px;
+}
 @media screen and (min-width: 992px) {
   .dest-main .internacional .div-titulo {
     height: 50vh;
@@ -175,28 +190,13 @@ header .navbar__page-link:focus {
   .dest-main .internacional .img-titulo {
     border-radius: 10px;
   }
-  .dest-main .internacional .dest-inter__img-div {
+  .dest-main .internacional .carousel-destinos .img-div {
     height: 50vh;
   }
-  .dest-main .internacional .dest-inter__img {
+  .dest-main .internacional .carousel-destinos .img {
     border-radius: 25px;
     padding: 10px;
   }
-}
-.dest-main .dest-inter__carousel {
-  border: 1px rgb(201, 201, 201) solid;
-  border-radius: 15px;
-}
-.dest-main .dest-inter__img-div {
-  height: 30vh;
-}
-.dest-main .dest-inter__img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  border-radius: 15px;
-  padding: 5px;
 }
 
 .footer {
