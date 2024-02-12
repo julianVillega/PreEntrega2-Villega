@@ -14,6 +14,19 @@ h1{
     color:$text-grey;
 }
 
+.texto_destacado{
+    color: #ff6c32;
+}
+
+body{
+    font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h2{
+    font-family: "Montserrat";
+}
+
 //estilos header
 
 header{
@@ -252,6 +265,99 @@ header{
         }
     }
         
+}
+
+//estilos alianzas
+.alianzas{
+    .title{
+        text-align: center;
+    }
+
+    .section{
+        @include flex-col(center, center);
+        margin: 10px;
+        gap:10px;
+        
+        .parrafo{
+            text-align: left;
+            margin:10px;
+            font-weight: 500;
+        }
+
+        .my-card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            gap:5px;
+            width: 90vw;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: left;
+            background-color: #F4F3EE;
+            
+            .img-div{
+                border-radius: 20px;
+                width: 100%;
+                height: 30vh;
+
+                .img{
+                    @extend %img-cover;
+                    border-radius: 20px;
+                }
+                .nombre{
+                    position: absolute;
+                    top: 10%;
+                    left: 9%;
+                    color: white;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    // estilos tablet
+
+    @media screen and (min-width:768px) {
+        .section{
+            .my-card{
+                width: 85vw;
+                justify-content: space-between;
+
+                .img-div{
+                    height: 30%;
+                    width: 30%;
+                    
+                    .nombre{
+                        left:2%;
+                        font-size: 2rem;
+                    }
+                }
+                .div-lista{
+                    align-self:center;
+                }
+            }
+        }
+    }
+
+    // estilos desktop
+    @media screen and (min-width:1024px){
+        .section{
+            .my-card{
+                width: 55vw;
+
+                .img-div{
+                    .nombre{
+                        left:3%;
+                    }
+                }
+                
+                .div-lista{
+                    width: 50%;
+                }
+            }
+        }
+    }
 }
 
 // estilos footer

@@ -1,9 +1,9 @@
-.index-main .section {
+.alianzas .section, .index-main .section {
   display: flex;
   flex-direction: column;
 }
 
-.dest-main .internacional .carousel-destinos .img, .dest-main .internacional .img-titulo {
+.alianzas .section .my-card .img-div .img, .dest-main .internacional .carousel-destinos .img, .dest-main .internacional .img-titulo {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -19,6 +19,18 @@ h1 {
   font-family: "Archivo black";
   font-size: 3rem;
   color: #4d4d4d;
+}
+
+.texto_destacado {
+  color: #ff6c32;
+}
+
+body {
+  font-family: Rubik, Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: "Montserrat";
 }
 
 header {
@@ -199,6 +211,76 @@ header .navbar__page-link:focus {
   .dest-main .internacional .carousel-destinos .img {
     border-radius: 25px;
     padding: 10px;
+  }
+}
+
+.alianzas .title {
+  text-align: center;
+}
+.alianzas .section {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+.alianzas .section .parrafo {
+  text-align: left;
+  margin: 10px;
+  font-weight: 500;
+}
+.alianzas .section .my-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  gap: 5px;
+  width: 90vw;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: left;
+  background-color: #F4F3EE;
+}
+.alianzas .section .my-card .img-div {
+  border-radius: 20px;
+  width: 100%;
+  height: 30vh;
+}
+.alianzas .section .my-card .img-div .img {
+  border-radius: 20px;
+}
+.alianzas .section .my-card .img-div .nombre {
+  position: absolute;
+  top: 10%;
+  left: 9%;
+  color: white;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .alianzas .section .my-card {
+    width: 85vw;
+    justify-content: space-between;
+  }
+  .alianzas .section .my-card .img-div {
+    height: 30%;
+    width: 30%;
+  }
+  .alianzas .section .my-card .img-div .nombre {
+    left: 2%;
+    font-size: 2rem;
+  }
+  .alianzas .section .my-card .div-lista {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .alianzas .section .my-card {
+    width: 55vw;
+  }
+  .alianzas .section .my-card .img-div .nombre {
+    left: 3%;
+  }
+  .alianzas .section .my-card .div-lista {
+    width: 50%;
   }
 }
 
