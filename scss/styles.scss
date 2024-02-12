@@ -184,7 +184,7 @@ header{
     // destinos internacionales
     .internacional{
         .div-titulo {
-            height: 25vh;
+            height: 40vh;
             position: relative;
         }
         
@@ -226,9 +226,6 @@ header{
             }
         }
         .internacional{
-            .div-titulo{
-                height: 30vh;
-            }
             .img-titulo{
                 border-radius: $default-border-radius;
             }

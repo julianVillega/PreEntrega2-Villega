@@ -158,7 +158,7 @@ header .navbar__page-link:focus {
   background-color: whitesmoke;
 }
 .dest-main .internacional .div-titulo {
-  height: 25vh;
+  height: 40vh;
   position: relative;
 }
 .dest-main .internacional .img-titulo {
@@ -186,9 +186,6 @@ header .navbar__page-link:focus {
   .dest-main .promos-nacionales .title {
     background-position: 0% 30%;
     min-height: 50vh;
-  }
-  .dest-main .internacional .div-titulo {
-    height: 30vh;
   }
   .dest-main .internacional .img-titulo {
     border-radius: 15px;
