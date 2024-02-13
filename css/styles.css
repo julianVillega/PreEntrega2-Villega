@@ -1,4 +1,4 @@
-.alianzas .section, .index-main .section {
+.nosotros-wraper, .alianzas .section, .index-main .section {
   display: flex;
   flex-direction: column;
 }
@@ -336,6 +336,42 @@ header .navbar__page-link:focus {
     width: 50%;
   }
 }
+
+.nosotros-wraper {
+  align-items: center;
+  justify-content: center;
+}
+.nosotros-wraper .section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3;
+  row-gap: 10px;
+}
+.nosotros-wraper .section .text-card {
+  background-color: #F4F3EE;
+  padding: 20px;
+  border-radius: 20px;
+}
+.nosotros-wraper .section .relleno {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nosotros-wraper .section {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nosotros-wraper .section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3;
+    gap: 20px;
+    width: 90vw;
+  }
+  .nosotros-wraper .section .relleno {
+    display: block;
+  }
+}
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 2fr;
