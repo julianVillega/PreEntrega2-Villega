@@ -4,7 +4,7 @@
 @import "destinos";
 @import "galeria";
 @import "alianzas";
-
+@import "nosotros";
 
 *{
     margin: 0;
@@ -34,7 +34,6 @@ h2{
 }
 
 //estilos header
-
 header{
     position: sticky;
     top: 0px;
@@ -77,55 +76,7 @@ header{
 @include galeria;
 
 // estilos nostros
-.nosotros-wraper{
-    @include flex-col(center, center);
-    .section{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 3;
-        row-gap: 10px;
-
-        .text-card{
-            background-color: #F4F3EE;
-            padding: 20px;
-            border-radius: 20px;
-        }
-
-        .text-card:nth-child(1){
-            @include entarPorLado(izquierda);
-        }
-        .text-card:nth-child(4){
-            @include entarPorLado(derecha);
-        }
-        .text-card:nth-child(5){
-            @include entarPorLado(izquierda);
-        }
-
-        .relleno{
-            display: none;
-        }
-    }
-    @media screen and (min-width:768px) {
-        .section{
-            width: 80vw;
-        }
-    }
-    
-    // estilos desktop
-    @media screen and (min-width:1024px){
-        .section{
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: 3;
-            gap: 20px;
-            width: 90vw;
-
-            .relleno{
-                display: block;
-            }
-        }
-    
-    }
-}
+@include nosotros;
 
 // estilos footer
 .footer{
