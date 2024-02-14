@@ -13,7 +13,7 @@
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(10, 1fr);
-            row-gap: 10px;
+            row-gap: $medium-gap;
             
             .img-div{
                 width: 100%;
@@ -27,20 +27,20 @@
         // estilos tablet
         @media screen and (min-width:768px) {
             .section{
-                column-gap: 10px;
+                column-gap: $medium-gap;
                 background-color: rgb(239, 239, 239);
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: repeat(5, 1fr);
                 width:80vw;
                 justify-items: center;
                 align-items: center;
-                padding:10px;
-                border-radius: $default-border-radius;
+                padding:$medium-padding;
+                border-radius: $big-border-radius;
             
                 .img-div{
                     height: 70%;
                     .img{
-                        border-radius: $default-border-radius;
+                        border-radius: $big-border-radius;
                     }
                 }
     

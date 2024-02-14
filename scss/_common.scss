@@ -24,14 +24,37 @@ $bg-blue:#0238c1;
 $bg-black:#000000;
 
 // bordes
-
-$default-border-radius: 15px;
-$big-border-radius: 25px;
+$small-border-radius:5px;
+$medium-border-radius: 10px;
+$big-border-radius:15px;
+$large-border-radius: 20px;
 
 // gaps
-$default-gap:10px;
+$small-gap:5px;
+$medium-gap:10px;
+$big-gap:15px;
+$large-gap:20px;
+
+// margenes
+$small-margin:5px;
+$medium-margin:10px;
+$big-margin:15px;
+$large-margin:20px;
+
+// paddings
+$small-padding:5px;
+$medium-padding:10px;
+$big-padding:15px;
+$large-padding:20px;
 
 // font-sizes
-$font-small:0.75rem;
-$font-normal:1rem;
-$font-big:1.25rem;
+$small-font-size:0.75rem;
+$medium-font-size:1rem;
+$big-font-size:1.25rem;
+$large-font-size:1.5;
+
+// header font sizes
+$small-heading:1.5rem;
+$medium-heading:2rem;
+$big-heading:2.5rem;
+$large-heading:3rem;

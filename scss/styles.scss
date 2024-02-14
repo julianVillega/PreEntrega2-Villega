@@ -16,7 +16,7 @@
 
 h1{
     font-family: "Archivo black";
-    font-size: 3rem;
+    font-size: $large-heading;
     color:$text-grey;
 }
 
@@ -46,10 +46,10 @@ header{
     }
 
     .navbar__page-link{
-        border-radius: $default-border-radius;
+        border-radius: $big-border-radius;
         background-color: $bg-black;
         color:$text-yellow;
-        font-size: 1.2rem;
+        font-size: $big-font-size;
         text-align: center;
         &:hover{
             background-color: $bg-black-selected;
@@ -88,8 +88,8 @@ header{
     "email social";
     justify-items: start;
     align-items: center;
-    gap: 20px;
-    margin:10px;
+    gap: $large-gap;
+    margin:$medium-margin;
     
     .direccion{
         grid-area: direccion;

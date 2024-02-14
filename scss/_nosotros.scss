@@ -12,8 +12,8 @@
     
             .text-card{
                 background-color: #F4F3EE;
-                padding: 20px;
-                border-radius: 20px;
+                padding: $large-padding;
+                border-radius: $large-border-radius;
             }
     
             .text-card:nth-child(1){
@@ -41,7 +41,7 @@
             .section{
                 grid-template-columns: repeat(2,1fr);
                 grid-template-rows: 3;
-                gap: 20px;
+                gap: $large-gap;
                 width: 90vw;
     
                 .relleno{
