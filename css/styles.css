@@ -120,11 +120,15 @@
 
 h1 {
   font-family: "Archivo black";
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #4d4d4d;
+  text-align: center;
 }
 
-.texto_destacado {
+.texto-destacado {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-bottom-right-radius: 20px;
+  padding: 5px;
   color: #ff6c32;
 }
 
@@ -166,7 +170,6 @@ header .navbar__page-link:focus {
 }
 .index-main .title-div {
   border-bottom: 1px #07004D solid;
-  text-align: center;
 }
 .index-main .section {
   align-items: center;
@@ -317,9 +320,6 @@ header .navbar__page-link:focus {
   }
 }
 
-.alianzas .title {
-  text-align: center;
-}
 .alianzas .section {
   align-items: center;
   justify-content: center;
@@ -385,10 +385,6 @@ header .navbar__page-link:focus {
   .alianzas .section .my-card .div-lista {
     width: 50%;
   }
-}
-
-.gal-title-div__title {
-  text-align: center;
 }
 
 .gal-main {

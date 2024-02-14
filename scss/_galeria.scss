@@ -1,10 +1,6 @@
 @import "common";
 
 @mixin galeria{
-    .gal-title-div__title{
-        text-align: center;
-    }
-    
     .gal-main{
         display:flex;
         justify-content: center;

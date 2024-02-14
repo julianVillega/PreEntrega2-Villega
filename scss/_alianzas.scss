@@ -2,10 +2,6 @@
 
 @mixin alianzas{
     .alianzas{
-        .title{
-            text-align: center;
-        }
-    
         .section{
             @include flex-col(center, center);
             margin: $medium-margin;

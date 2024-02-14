@@ -18,9 +18,13 @@ h1{
     font-family: "Archivo black";
     font-size: $large-heading;
     color:$text-grey;
+    text-align: center;
 }
 
-.texto_destacado{
+.texto-destacado{
+    background-color: $bg-transparent-white;
+    border-bottom-right-radius: $large-border-radius;
+    padding: $small-padding;
     color: $text-organge;
 }
 
