@@ -449,6 +449,17 @@ header{
             padding: 20px;
             border-radius: 20px;
         }
+
+        .text-card:nth-child(1){
+            @include entarPorLado(izquierda);
+        }
+        .text-card:nth-child(4){
+            @include entarPorLado(derecha);
+        }
+        .text-card:nth-child(5){
+            @include entarPorLado(izquierda);
+        }
+
         .relleno{
             display: none;
         }

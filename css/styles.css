@@ -374,6 +374,18 @@ header .navbar__page-link:focus {
   padding: 20px;
   border-radius: 20px;
 }
+.nosotros-wraper .section .text-card:nth-child(1) {
+  animation-duration: 2.5s;
+  animation-name: entrarPorIzquierda;
+}
+.nosotros-wraper .section .text-card:nth-child(4) {
+  animation-duration: 2.5s;
+  animation-name: entrarPorDerecha;
+}
+.nosotros-wraper .section .text-card:nth-child(5) {
+  animation-duration: 2.5s;
+  animation-name: entrarPorIzquierda;
+}
 .nosotros-wraper .section .relleno {
   display: none;
 }
