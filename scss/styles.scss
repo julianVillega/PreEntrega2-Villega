@@ -1,6 +1,7 @@
 @import "common";
 @import "animaciones";
 @import "index";
+@import "destinos";
 
 *{
     margin: 0;
@@ -63,118 +64,7 @@ header{
 @include index;
 
 // estilos destinos
-.dest-main{
-    // promos nacionales
-    .promos-nacionales{
-        .title{
-            background-image: url(../images/ciudad-noche.jpg);
-            background-size:cover;
-        }
-        .title--desktop{
-            display: none;
-        }
-    }
-    
-    .promo-card{
-        .precio{
-            font-size:$font-small;
-            font-weight: 900;
-            color:rgb(40, 130, 40);
-        }
-        
-        .precio--viejo{
-            text-decoration: line-through;
-            color:red;
-        }
-        
-        .btn-mas-info{
-            background-color: whitesmoke;
-        }
-    }
-    
-    
-    // destinos internacionales
-    .internacional{
-        .div-titulo {
-            height: 40vh;
-            position: relative;
-        }
-        
-        .img-titulo{
-            @extend %img-cover;
-            object-position: 0% 50%;
-            z-index: 0;
-        }
-        
-        .titulo{
-            position: absolute;
-            top: 0px;
-            z-index: 0;
-        }
-        
-        .carousel-destinos{
-            border: 1px rgb(201, 201, 201) solid;
-            border-radius: $default-border-radius;
-            
-            .img-div{
-                height: 30vh;
-            }
-            
-            .img{
-                @extend %img-cover;
-                object-position: 50% 50%;
-                border-radius: $default-border-radius;
-                padding: 5px;
-            }
-        }   
-    }
-
-    // estilos tablet
-    @media screen and (min-width:768px){
-        .promos-nacionales{
-            .title{
-                background-position: 0% 30%;
-                min-height: 50vh;
-            }
-        }
-        .internacional{
-            .img-titulo{
-                border-radius: $default-border-radius;
-            }
-        }
-    }
-
-    // estilos desktop
-    @media screen and (min-width:992px){
-        .promos-nacionales{
-            .title{
-                display: none;
-            }
-            .title--desktop{
-                display: block;
-                border-radius: $default-border-radius;
-            }
-        }
-        
-        .internacional{
-            .div-titulo{
-                height: 50vh;
-            }
-            
-            .carousel-destinos{
-                .img-div{
-                    height: 50vh;
-                }
-                
-                .img{
-                    border-radius: $big-border-radius;
-                    padding: 10px;
-                }
-            }
-        }
-    }
-        
-}
+@include destinos;
 
 //estilos alianzas
 .alianzas{
