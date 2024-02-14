@@ -74,6 +74,17 @@
   object-fit: cover;
 }
 
+.nosotros-wraper, .alianzas .section, .index-main .section {
+  display: flex;
+  flex-direction: column;
+}
+
+.gal-main .section .img-div .img, .alianzas .section .my-card .img-div .img, .dest-main .internacional .carousel-destinos .img, .dest-main .internacional .img-titulo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 * {
   margin: 0;
   padding: 0;
