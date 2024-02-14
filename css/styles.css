@@ -9,6 +9,22 @@
   object-fit: cover;
 }
 
+@keyframes entrarPorIzquierda {
+  0% {
+    transform: translateX(-1980px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes entrarPorDerecha {
+  0% {
+    transform: translateX(1980px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -84,13 +100,19 @@ header .navbar__page-link:focus {
 .index-main .article:nth-child(1) {
   background-position: 0% 50%;
   background-image: url(../images/playa.jpg);
+  animation-duration: 2.5s;
+  animation-name: entrarPorIzquierda;
 }
 .index-main .article:nth-child(2) {
   background-image: url(../images/ciudad-noche.jpg);
   background-size: cover;
+  animation-duration: 2.5s;
+  animation-name: entrarPorDerecha;
 }
 .index-main .article:nth-child(3) {
   background-image: url(../images/new-york.jpg);
+  animation-duration: 2.5s;
+  animation-name: entrarPorIzquierda;
 }
 .index-main .article__titulo {
   text-align: center;

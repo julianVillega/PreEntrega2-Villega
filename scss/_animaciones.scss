@@ -1,0 +1,27 @@
+@keyframes entrarPorIzquierda {
+    0%{
+        transform: translateX(-1980px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }       
+}
+
+@keyframes entrarPorDerecha {
+    0%{
+        transform: translateX(1980px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }       
+}
+
+@mixin entarPorLado($lado){
+    animation-duration: 2.5s;
+    @if $lado == "izquierda"{
+        animation-name: entrarPorIzquierda;
+    }
+    @else{
+        animation-name: entrarPorDerecha;
+    }
+}

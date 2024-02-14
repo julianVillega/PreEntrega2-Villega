@@ -1,4 +1,5 @@
 @import "common";
+@import "animaciones";
 
 *{
     margin: 0;
@@ -60,6 +61,7 @@ header{
 // Estilos index
 
 .index-main{
+
     .title-div{
         border-bottom: 1px #07004D solid;
         text-align: center;
@@ -84,15 +86,18 @@ header{
     .article:nth-child(1){
         background-position: 0% 50%;
         background-image: url(../images/playa.jpg);
+        @include entarPorLado(izquierda);
     }
-    
+
     .article:nth-child(2){
         background-image: url(../images/ciudad-noche.jpg);
         background-size: cover;
+        @include entarPorLado(derecha);
     }
     
     .article:nth-child(3){
         background-image: url(../images/new-york.jpg);
+        @include entarPorLado(izquierda);
     }
     
     .article__titulo{
