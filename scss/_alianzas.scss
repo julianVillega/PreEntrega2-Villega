@@ -27,7 +27,7 @@
                 border-radius:$large-border-radius;
                 padding: $medium-padding;
                 text-align: left;
-                background-color: #F4F3EE;
+                background-color: $bg-white-pop;
                 
                 .img-div{
                     border-radius: $large-border-radius;
@@ -42,7 +42,7 @@
                         position: absolute;
                         top: 10%;
                         left: 9%;
-                        color: white;
+                        color: $text-white;
                         z-index: 1;
                     }
                 }

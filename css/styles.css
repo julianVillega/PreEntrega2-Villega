@@ -258,10 +258,10 @@ header .navbar__page-link:focus {
 }
 .dest-main .promo-card .precio--viejo {
   text-decoration: line-through;
-  color: red;
+  color: rgb(255, 0, 0);
 }
 .dest-main .promo-card .btn-mas-info {
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
 }
 .dest-main .internacional .div-titulo {
   height: 40vh;
@@ -355,7 +355,7 @@ header .navbar__page-link:focus {
   position: absolute;
   top: 10%;
   left: 9%;
-  color: white;
+  color: rgb(255, 255, 255);
   z-index: 1;
 }
 @media screen and (min-width: 768px) {

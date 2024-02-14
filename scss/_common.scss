@@ -15,13 +15,22 @@
     justify-content: $justify;
 }
 
-// colores
+// colores de fondo
 
 $bg-black-selected : #4e4e4e;
-$text-grey:#4d4d4d;
-$text-yellow:#EFA00B;
 $bg-blue:#0238c1;
 $bg-black:#000000;
+$bg-white: rgb(245, 245, 245);
+$bg-white-pop:#F4F3EE;
+// colores de texto
+
+$text-grey:#4d4d4d;
+$text-yellow:#EFA00B;
+$text-organge:#ff6c32;
+$text-green: rgb(40, 130, 40);
+$text-red:rgb(255,0,0);
+$text-white: rgb(255,255,255);
+
 
 // bordes
 $small-border-radius:5px;

@@ -17,16 +17,16 @@
             .precio{
                 font-size:$small-font-size;
                 font-weight: 900;
-                color:rgb(40, 130, 40);
+                color:$text-green;
             }
             
             .precio--viejo{
                 text-decoration: line-through;
-                color:red;
+                color:$text-red;
             }
             
             .btn-mas-info{
-                background-color: whitesmoke;
+                background-color: $bg-white;
             }
         }
         
