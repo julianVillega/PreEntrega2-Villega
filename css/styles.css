@@ -143,7 +143,7 @@ h2 {
 header {
   position: sticky;
   top: 0px;
-  background-color: #0238c1;
+  background-color: #023047;
   z-index: 2;
 }
 header .logo {
@@ -153,16 +153,16 @@ header .logo {
 header .navbar__page-link {
   border-radius: 15px;
   background-color: #000000;
-  color: #EFA00B;
+  color: #ffb703;
   font-size: 1.25rem;
   text-align: center;
 }
 header .navbar__page-link:hover {
   background-color: #4e4e4e;
-  color: #EFA00B;
+  color: #ffb703;
 }
 header .navbar__page-link:focus {
-  color: #EFA00B;
+  color: #ffb703;
 }
 
 .index-main {
@@ -487,13 +487,14 @@ header .navbar__page-link:focus {
 }
 
 .footer {
+  background-color: #8ecae6;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: "direccion privacidad" "telefono social" "email social";
   justify-items: start;
   align-items: center;
   gap: 20px;
-  margin: 10px;
+  padding: 10px;
 }
 .footer .direccion {
   grid-area: direccion;

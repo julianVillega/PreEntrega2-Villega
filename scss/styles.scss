@@ -84,6 +84,7 @@ header{
 
 // estilos footer
 .footer{
+    background-color: #8ecae6;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
@@ -93,7 +94,7 @@ header{
     justify-items: start;
     align-items: center;
     gap: $large-gap;
-    margin:$medium-margin;
+    padding: $medium-padding;
     
     .direccion{
         grid-area: direccion;
