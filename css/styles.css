@@ -149,6 +149,7 @@ header {
 header .logo {
   width: 100px;
   height: auto;
+  border-radius: 10px;
 }
 header .navbar__page-link {
   border-radius: 15px;
@@ -163,6 +164,11 @@ header .navbar__page-link:hover {
 }
 header .navbar__page-link:focus {
   color: #ffb703;
+}
+@media screen and (min-width: 1024px) {
+  header .logo {
+    border-radius: 15px;
+  }
 }
 
 .index-main {

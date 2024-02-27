@@ -47,6 +47,7 @@ header{
     .logo{
         width: 100px;
         height: auto;
+        border-radius: $medium-border-radius;
     }
 
     .navbar__page-link{
@@ -63,7 +64,11 @@ header{
             color: $text-yellow;
         }
     }
-
+    @media screen and (min-width:1024px) {
+        .logo{
+            border-radius: $big-border-radius;
+        }
+    }
 }
 
 // Estilos index
