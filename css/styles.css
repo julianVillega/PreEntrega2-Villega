@@ -259,6 +259,7 @@ header .navbar__page-link:focus {
 .dest-main .promos-nacionales .title {
   background-image: url(../images/ciudad-noche.jpg);
   background-size: cover;
+  height: 25vh;
 }
 .dest-main .promos-nacionales .title--desktop {
   display: none;
