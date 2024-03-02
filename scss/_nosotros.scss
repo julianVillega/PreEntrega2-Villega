@@ -24,6 +24,7 @@
             }
             .text-card:nth-child(5){
                 @include entarPorLado(izquierda);
+                margin-bottom: $large-margin;
             }
     
             .relleno{

@@ -476,6 +476,7 @@ header .navbar__page-link:focus {
 .nosotros-wraper .section .text-card:nth-child(5) {
   animation-duration: 2.5s;
   animation-name: entrarPorIzquierda;
+  margin-bottom: 20px;
 }
 .nosotros-wraper .section .relleno {
   display: none;
