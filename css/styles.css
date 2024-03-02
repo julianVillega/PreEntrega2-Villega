@@ -218,6 +218,7 @@ header .navbar__page-link:focus {
 }
 .index-main .article__content {
   padding: 10px;
+  font-family: "archivo black";
   text-shadow: #ffffff 2px 2px 5px;
 }
 @media screen and (min-width: 768px) {
