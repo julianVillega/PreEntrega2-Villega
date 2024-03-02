@@ -151,6 +151,9 @@ header .logo {
   height: auto;
   border-radius: 10px;
 }
+header .btn-menu {
+  background-color: #8ecae6;
+}
 header .navbar__page-link {
   border-radius: 15px;
   background-color: #000000;

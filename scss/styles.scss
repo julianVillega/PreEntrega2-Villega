@@ -49,7 +49,9 @@ header{
         height: auto;
         border-radius: $medium-border-radius;
     }
-
+    .btn-menu{
+        background-color: $bg-light-blue;
+    }
     .navbar__page-link{
         border-radius: $big-border-radius;
         background-color: $bg-black;
@@ -89,7 +91,7 @@ header{
 
 // estilos footer
 .footer{
-    background-color: #8ecae6;
+    background-color: $bg-light-blue;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
